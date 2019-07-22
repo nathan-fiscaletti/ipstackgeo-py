@@ -10,7 +10,7 @@
 [![PyCodeStyle](./stylebadge.svg)](./tests/latest.stylelog)
 [![Downloads](https://pepy.tech/badge/ipstack)](https://pepy.tech/project/ipstack)
 [![GitHub issues](https://img.shields.io/github/issues/nathan-fiscaletti/ipstackgeo-py.svg)](https://github.com/nathan-fiscaletti/ipstackgeo-py/issues)
-![PyPI - License](https://img.shields.io/pypi/l/ipstack.svg)
+[![GitHub license](https://img.shields.io/github/license/nathan-fiscaletti/ipstackgeo-py.svg)](https://github.com/nathan-fiscaletti/ipstackgeo-py/blob/master/LICENSE)
 
 Learn more about IPStack here: [ipstack.net](https://ipstack.com/product)
 
