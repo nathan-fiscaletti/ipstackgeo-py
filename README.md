@@ -139,3 +139,14 @@ There are also a few other useful features built into this library and the IPSta
    # Configure the timeout for requests
    location = geo_lookup.timeout(10).get_location("github.com")
    ```
+
+### Development
+
+Before commiting anything, please create a pre-commit hook with the following content.
+
+This will ensure that the pycodestyle badge is properly updated.
+
+```bash
+#!/bin/bash
+python3 tests/style.py
+```
