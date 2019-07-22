@@ -13,7 +13,10 @@ class GeoLookup:
 
     def get_location(self, *ips):
         if len(ips) > 50:
-            raise Exception("IPStack Error: Bulk lookup limited to 50 IP addresses at a time.")
+            raise Exception(
+                "IPStack Error: Bulk lookup limited to "
+                "50 IP addresses at a time."
+            )
         url = ("http" if not self.__use_https else "https") + \
             "://api.ipstack.com/"
         url = url + ",".join(ips) + "?access_key=" + self.__api_key

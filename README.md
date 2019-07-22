@@ -4,7 +4,13 @@
 > **Hint**: IPStack for PHP is available through `Python PIP`. `pip install ipstack`
 
 
-[![License](https://poser.pugx.org/nafisc/ipstackgeo-php/license?format=flat)](https://packagist.org/packages/nafisc/ipstackgeo-php)
+#### Supports Python 2.7+
+
+[![PyPI version](https://badge.fury.io/py/ipstack.svg)](https://badge.fury.io/py/ipstack)
+[![PyCodeStyle](./stylebadge.svg)](./tests/latest.stylelog)
+[![Downloads](https://pepy.tech/badge/ipstack)](https://pepy.tech/project/ipstack)
+[![GitHub issues](https://img.shields.io/github/issues/nathan-fiscaletti/ipstackgeo-py.svg)](https://github.com/nathan-fiscaletti/ipstackgeo-py/issues)
+![PyPI - License](https://img.shields.io/pypi/l/ipstack.svg)
 
 Learn more about IPStack here: [ipstack.net](https://ipstack.com/product)
 
