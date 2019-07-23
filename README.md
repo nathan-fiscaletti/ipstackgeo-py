@@ -8,7 +8,7 @@
 
 [![PyPI version](https://badge.fury.io/py/ipstack.svg)](https://badge.fury.io/py/ipstack)
 [![PyCodeStyle](./stylebadge.svg)](./tests/latest.stylelog)
-[![Downloads](https://pepy.tech/badge/ipstack)](https://pepy.tech/project/ipstack)
+[![Downloads](https://img.shields.io/pypi/dm/ipstack.svg)](https://pypistats.org/packages/ipstack)
 [![GitHub issues](https://img.shields.io/github/issues/nathan-fiscaletti/ipstackgeo-py.svg)](https://github.com/nathan-fiscaletti/ipstackgeo-py/issues)
 [![GitHub license](https://img.shields.io/github/license/nathan-fiscaletti/ipstackgeo-py.svg)](https://github.com/nathan-fiscaletti/ipstackgeo-py/blob/master/LICENSE)
 
