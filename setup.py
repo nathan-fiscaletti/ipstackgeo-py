@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="ipstack",
-    version="0.1.1",
+    version="0.1.3",
     author="Nathan Fiscaletti",
     author_email="nathan.fiscaletti@gmail.com",
     description="A Python library for interfacing with IPStack Geo API",
@@ -14,6 +14,9 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/nathan-fiscaletti/ipstackgeo-py",
     packages=find_packages(),
+    install_requires=[
+        "requests"
+    ],
     classifiers=[
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3.7",
