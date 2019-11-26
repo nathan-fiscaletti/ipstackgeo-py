@@ -1,5 +1,6 @@
 import requests
-
+import sys
+import urllib
 
 class GeoLookup:
 
@@ -17,6 +18,9 @@ class GeoLookup:
                 "IPStack Error: Bulk lookup limited to "
                 "50 IP addresses at a time."
             )
+
+        ips = map(lambda ip: self.__format_ip(ip), ips)
+
         url = ("http" if not self.__use_https else "https") + \
             "://api.ipstack.com/"
         url = url + ",".join(ips) + "?access_key=" + self.__api_key
@@ -29,6 +33,12 @@ class GeoLookup:
 
     def get_own_location(self):
         return self.get_location(requests.get('https://ip.42.pl/raw').text)
+
+    def __format_ip(self, ip):
+        if sys.version_info > (3, 0):
+            return urllib.parse.quote_plus(ip)
+        else:
+            return urllib.quote(ip)
 
     def __process_response(self, response):
         if response.status_code == 200:
