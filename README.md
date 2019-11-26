@@ -1,7 +1,9 @@
 # IPStack for Python (Geo Location Library)
 > **IPStack for Python** is a simple library used to interface with an IPStack Geo API.
->
-> **Hint**: IPStack for Python is available through `Python PIP`. `pip install ipstack`
+
+```
+$ pip install ipstack
+```
 
 
 #### Supports Python 2.7+
