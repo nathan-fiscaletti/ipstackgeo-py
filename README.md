@@ -8,6 +8,7 @@ $ pip install ipstack
 
 #### Supports Python 2.7+
 
+[![Sponsor Me!](https://img.shields.io/badge/%F0%9F%92%B8-Sponsor%20Me!-blue)](https://github.com/sponsors/nathan-fiscaletti)
 [![PyPI version](https://badge.fury.io/py/ipstack.svg)](https://badge.fury.io/py/ipstack)
 [![PyCodeStyle](./stylebadge.svg)](./tests/latest.stylelog)
 [![Downloads](https://pepy.tech/badge/ipstack)](https://pepy.tech/project/ipstack)
